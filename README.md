@@ -34,4 +34,4 @@ IDE: Sublime Text 3
 - /detail?id=xxx  根据id查询到的高达机体的json字符串，如果没有查询到会返回空
 
 # 有关webpack打包
-webpack打包后的文件保存在/angular/dist目录下，将该文件夹下的所有文件复制到/server/assets/目录下，启动服务器后访问http://localhost:4000/index.html即可。
+webpack打包后的文件保存在/angular/dist目录下，将该文件夹下的所有文件复制到/server/assets/目录下（没有请新建），启动服务器后访问http://localhost:4000/index.html。

@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stormrabbit/node-server.another.git"
+    "url": "git+https://github.com/stormrabbit/gundam-meister.git"
   },
   "author": "Sunny",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stormrabbit/node-server.another/issues"
+    "url": "https://github.com/stormrabbit/gundam-meister.git/issues"
   },
-  "homepage": "https://github.com/stormrabbit/node-server.another#readme"
+  "homepage": "https://github.com/stormrabbit/gundam-meister.git#readme"
 }

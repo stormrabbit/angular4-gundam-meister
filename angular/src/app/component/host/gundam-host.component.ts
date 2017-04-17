@@ -6,13 +6,7 @@ import { GundamService } from '../../service/gundam.service';
 import { Gundam } from '../../model/gundam';
 
 @Component({
-  template: `
-    <div *ngFor="let gundam of gundams"  [routerLink]="['/detail', gundam.id]">
-      <span>
-        {{gundam.name}}
-      </span>
-    </div>
-  `,
+  templateUrl: './html/gundam-host.component.html',
 })
 
 export class GundamHostComponent implements OnInit {

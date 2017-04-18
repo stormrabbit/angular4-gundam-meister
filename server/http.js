@@ -8,8 +8,7 @@ var fs = require('fs');
 
 var server = http.createServer(function(request, response) {
     var pathname = url.parse(request.url).pathname;
-
-    console.log(pathname);
+    console.log('pathname ==>' + pathname);
     if (pathname === '/gundamlist') {
         const returnValue = JSON.stringify(gundamlist);
         response.writeHead(200, {
@@ -43,6 +42,9 @@ var server = http.createServer(function(request, response) {
 
         }
     } else {
+        if(pathname === '/'){
+            pathname = '/index.html';
+        }
         var realPath = "assets" + pathname;
         console.log('realPath =>' + realPath);
         fs.exists(realPath, function(exists) {
@@ -71,7 +73,7 @@ var server = http.createServer(function(request, response) {
                 });
             }
         });
-    } 
+    }
 });
 server.listen(PORT);
 console.log("Server runing at port: " + PORT + ".");

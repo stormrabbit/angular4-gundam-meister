@@ -12,6 +12,7 @@ import {
 } from './component/appcomponent/app.component';
 import { GundamDetailComponent } from './component/detail/gundam-detail.component';
 import { GundamHostComponent } from './component/host/gundam-host.component';
+import { GundamHostItemComponent } from './component/host-item/gundam-host-item.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { HttpModule } from '@angular/http';
@@ -27,7 +28,8 @@ import { GundamService } from './service/gundam.service';
   declarations: [
     AppComponent,
     GundamDetailComponent,
-    GundamHostComponent
+    GundamHostComponent,
+    GundamHostItemComponent
   ],
   providers: [GundamService],
   bootstrap: [AppComponent],

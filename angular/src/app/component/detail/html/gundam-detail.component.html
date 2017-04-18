@@ -1,0 +1,44 @@
+<div *ngIf="selectedGundam" class="myBody">
+  <div>
+    <img src="{{selectedGundam.imgUrl}}" alt="{{selectedGundam.name}}" style="width: 100%">
+  </div>
+  <div class="container formItem" style="text-align: left;padding: 5px">
+    <div class="row">
+      <div class="col">
+        名称
+      </div>
+      <div class="col">
+        {{selectedGundam.name}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        类型
+      </div>
+      <div class="col">
+        {{selectedGundam.type}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        装备
+      </div>
+      <div class="col">
+        {{selectedGundam.armor}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        武器
+      </div>
+      <div class="col">
+        {{selectedGundam.weapon}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p>{{selectedGundam.describe}}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -13,12 +13,8 @@ import { GundamService } from '../../service/gundam.service';
 import 'rxjs/add/operator/switchMap';
 
 @Component({
-  template: `
-    <div *ngIf="selectedGundam">
-      <span>{{selectedGundam.name}}</span>
-      <span>{{selectedGundam.type}}</span>
-    </div>
-  `,
+  templateUrl: './html/gundam-detail.component.html',
+  styleUrls: ['./html/gundam-detail.component.scss']
 })
 
 export class GundamDetailComponent implements OnInit {

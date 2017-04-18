@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-5">Hello, Meister!</h1>
+      <p>你好，我是龙骑将杨影枫，欢迎来到我的城堡。</p>
+      <p>这是端午节假期在家里对着angular官网教程自己撸的一个小东西，用到了angular中compoent和service，以及http模块进行网络请求。</p>
+      <p><a class="btn btn-primary btn-lg" href="https://github.com/stormrabbit/gundam-meister" role="button">GitHub &raquo;</a></p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let gundam of gundams">
+        <my-host-item  [gundam]="gundam">
+        </my-host-item>
+    </div>
+  </div>
+</div>

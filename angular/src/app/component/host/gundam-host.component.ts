@@ -16,7 +16,7 @@ export class GundamHostComponent implements OnInit {
   constructor(private gundamService: GundamService) {}
 
   ngOnInit(): void {
-    this.gundamService.getGundams().then(gundams => this.gundams = gundams);
+    this.gundamService.getGundams().then(gundams => this.gundams = gundams.slice(0, 3)); // 让主页只显示3个
   }
 
 }

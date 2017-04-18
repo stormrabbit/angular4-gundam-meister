@@ -14,6 +14,7 @@ import 'rxjs/add/operator/switchMap';
 
 @Component({
   templateUrl: './html/gundam-detail.component.html',
+  styleUrls: ['./html/gundam-detail.component.scss']
 })
 
 export class GundamDetailComponent implements OnInit {

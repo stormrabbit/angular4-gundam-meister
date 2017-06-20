@@ -4,7 +4,7 @@ import { Gundam } from './../../model/gundam';
 @Component({
     selector: 'my-host-item',
     templateUrl: './html/gundam-host-item.component.html',
-    styleUrls: ['./html/gundam-host-item.component.scss']
+    styleUrls: ['./html/gundam-host-item.component.scss'],
 })
 
 export class GundamHostItemComponent implements OnInit {

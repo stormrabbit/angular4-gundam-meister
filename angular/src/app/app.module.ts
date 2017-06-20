@@ -13,6 +13,7 @@ import {
 import { GundamDetailComponent } from './component/detail/gundam-detail.component';
 import { GundamHostComponent } from './component/host/gundam-host.component';
 import { GundamHostItemComponent } from './component/host-item/gundam-host-item.component';
+import { DemoComponent } from './component/demo/demo';
 import { AppRoutingModule } from './app-routing.module';
 
 import { HttpModule } from '@angular/http';
@@ -29,7 +30,8 @@ import { GundamService } from './service/gundam.service';
     AppComponent,
     GundamDetailComponent,
     GundamHostComponent,
-    GundamHostItemComponent
+    GundamHostItemComponent,
+    DemoComponent
   ],
   providers: [GundamService],
   bootstrap: [AppComponent],

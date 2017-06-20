@@ -4,6 +4,7 @@ import {
 import { RouterModule, Route }   from '@angular/router';
 import { GundamDetailComponent } from './component/detail/gundam-detail.component';
 import { GundamHostComponent } from './component/host/gundam-host.component';
+import { DemoComponent } from './component/demo/demo';
 
 const routes: Route[] = [
     {
@@ -13,6 +14,10 @@ const routes: Route[] = [
     {
       path: 'detail/:id',
       component: GundamDetailComponent
+    },
+    {
+      path: 'demo',
+      component: DemoComponent
     }
 ];
 
